@@ -1,0 +1,10 @@
+body{
+    background-color: #191919;
+    font-family: 'DM Sans',sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.wrapper{
+    width: 1440px ;
+}
