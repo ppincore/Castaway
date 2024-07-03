@@ -1,32 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/nullstyle.css">
-    <link rel="stylesheet" href="./fonts/fonts.css">
-    <link rel="stylesheet" href="./styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/nullstyle.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Castaway</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrapper">
-    <header class="header">
+      <header class="header">
         <div class="header__wrapper">
-        <a href="#" class="header__logo-link">
-            <img src="./images/logo.svg" alt="project logo" class="header__image-link">
-        </a>
-        <nav class="header__menu">
+          <a href="#" class="header__logo-link">
+            <img
+              src="./images/logo.svg"
+              alt="project logo"
+              class="header__image-link"
+            />
+          </a>
+          <nav class="header__menu">
             <ul class="header__links-list">
-                <li class="header__links-list-item header__links-list-item_active">Home</li>
-                <li class="header__links-list-item">Episodes</li>
-                <li class="header__links-list-item">About</li>
-                <li class="header__links-list-item">Contact</li>
+              <li
+                class="header__links-list-item header__links-list-item_active"
+              >
+                Home
+              </li>
+              <li class="header__links-list-item">Episodes</li>
+              <li class="header__links-list-item">About</li>
+              <li class="header__links-list-item">Contact</li>
             </ul>
-        </nav>
+          </nav>
+        </div>
+      </header>
+      <main class="content">
+        <section class="greeting__section">
+          <img src="./images/cover_man.png" alt="man image" />
+          <div class="wrapper__section">
+            <h1 class="greeting__section-title">
+              Take your podcast to the
+              <span class="section__title-modified">next</span>
+              <span class="section__title-modified section-title-bold"
+                >level</span
+              >
+            </h1>
+            <p class="section__social-list-title">Listen on</p>
+            <ul class="section__social-list">
+              <li class="section__social-list-item">
+                <a href="#" class="section__social-link">
+                  <img src="../castaway/images/spotify.svg" alt="" />
+                </a>
+              </li>
+              <li class="section__social-list-item">
+                <a href="#" class="section__social-link">
+                  <img src="../castaway/images/circle.svg" alt="" />
+                </a>
+              </li>
+              <li class="section__social-list-item">
+                <a href="#" class="section__social-link">
+                  <img src="../castaway/images/sound_cloud.svg" alt="" />
+                </a>
+              </li>
+              <li class="section__social-list-item">
+                <a href="#" class="section__social-link">
+                  <img src="../castaway/images/apple_podcast.svg" alt="" />
+                </a>
+              </li>
+              <li class="section__social-list-item">
+                <a href="#" class="section__social-link">
+                  <img src="../castaway/images/radio.svg" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="content-section">
+          <div class="content-section__subtitle-wrapper">
+            <h2 class="content-section__subtitle">Latest episodes</h2>
+            <button class="button small-button">View all episodes</button>
+          </div>
+          <ul class="cards-list">
+            <li class="cards-list">
+              <article class="card">
+                <img src="../castaway/images/section1.jpg" alt="" class="card__image"/>
+                <div class="card__content">
+                    <p class="card__tag">Gear</p>
+                    <p class="card__episode">Episode 3</p>
+                  <h2 class="card__title">
+                    Should you get outboard audio gear?
+                  </h2>
+                  <p class="card_text">
+                    Is hardware really worth it when it comes to podcasting? The
+                    answer is...it depends. Here’s our reasons on why you might
+                    want to consider picking something up.
+                  </p>
+                  <button class="button">
+                    View Episode Details
+                  </button>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer class="footer"></footer>
     </div>
-    </header>
-    <main class="content"></main>
-    <footer class="footer"></footer>
-    </div>
-</body>
+  </body>
 </html>

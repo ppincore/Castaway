@@ -1,50 +1,123 @@
-body{
-    background-color: #191919;
-    font-family: 'DM Sans',sans-serif;
-    font-size: 22px;
-    font-weight: 400;
-    color: #FFFFFF;
-    
+body {
+  background-color: #191919;
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #ffffff;
+  
 }
-.wrapper{
-    width: 1440px ;
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
+.wrapper {
+  width: 1440px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  
 }
 .content {
-    flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 /* HEADER */
 
-.header{
-    width: 100%;
-
+.header {
+  width: 100%;
 }
-.header__wrapper{
-margin:30px 50px ;
-display: flex;
-justify-content: space-between;
+.header__wrapper {
+  margin: 30px 50px;
+  display: flex;
+  justify-content: space-between;
 }
 .header__logo-link {
-    align-self: center;
-}
-.header__image-link {
-}
-.header__menu {
-
+  align-self: center;
 }
 .header__links-list {
-font-size: 17px;
-display: flex;
-width: 403px;
-justify-content: space-between;
-padding: 20px;
+  font-size: 17px;
+  display: flex;
+  width: 403px;
+  justify-content: space-between;
+  padding: 20px;
 }
-.header__links-list-item {
-}
+
 .header__links-list-item_active {
-    color: #118DA8;
+  color: #118da8;
+}
+
+/* Greeting section */
+
+.greeting__section {
+  width: 1300px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 40px auto 0px;
+}
+.wrapper__section{
+    display: flex;
+    flex-direction: column;
+    padding: 300px 60px 0;
+    flex-grow: 0;
+}
+.greeting__section-title {
+min-height: 264px;
+font-size: 70px;
+letter-spacing: 0.1em;
+line-height: 123%;
+}
+.section__title-modified{
+    font-size: 75px;
+}
+.section-title-bold {
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+}
+.section__social-list-title {
+    font-size: 15px;
+    margin: 90px 23px 10px;
+    }
+.section__social-list {
+    display: flex;
+    gap:17px;
+    margin: 10px 23px;
+    flex-grow: 0;
+    flex-wrap: wrap;
+}
+
+/* Content section */
+.content-section {
+}
+.content-section__subtitle-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 105px 70px;
+}
+.content-section__subtitle {
+    font-size: 64px ;
+    letter-spacing: 0.1em;
+}
+.button {
+    font-size: 18px ;
+    color: #ffffff;
+    background-color: #118da8;
+    border-radius: 5%;
+    min-height: 51px;
+    padding: 20px;
+}
+.small-button {
+}
+.cards-list {
+}
+.card {
+}
+.card__image {
+}
+.card__content {
+}
+.card__tag {
+}
+.card__episode {
+}
+.card__title {
+}
+.card_text {
 }
