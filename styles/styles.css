@@ -4,7 +4,47 @@ body{
     font-size: 22px;
     font-weight: 400;
     color: #FFFFFF;
+    
 }
 .wrapper{
     width: 1440px ;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.content {
+    flex: 1 1 auto;
+}
+
+/* HEADER */
+
+.header{
+    width: 100%;
+
+}
+.header__wrapper{
+margin:30px 50px ;
+display: flex;
+justify-content: space-between;
+}
+.header__logo-link {
+    align-self: center;
+}
+.header__image-link {
+}
+.header__menu {
+
+}
+.header__links-list {
+font-size: 17px;
+display: flex;
+width: 403px;
+justify-content: space-between;
+padding: 20px;
+}
+.header__links-list-item {
+}
+.header__links-list-item_active {
+    color: #118DA8;
 }
