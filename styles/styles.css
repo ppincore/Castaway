@@ -4,7 +4,6 @@ body {
   font-size: 22px;
   font-weight: 400;
   color: #ffffff;
-  
 }
 .wrapper {
   width: 1440px;
@@ -12,9 +11,10 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  
 }
 .content {
+  width: 1300px;
+  margin: auto;
   flex: 1 1 auto;
 }
 
@@ -51,73 +51,180 @@ body {
   grid-template-columns: repeat(2, 1fr);
   margin: 40px auto 0px;
 }
-.wrapper__section{
-    display: flex;
-    flex-direction: column;
-    padding: 300px 60px 0;
-    flex-grow: 0;
+.wrapper__section {
+  display: flex;
+  flex-direction: column;
+  padding: 300px 60px 0;
+  flex-grow: 0;
 }
 .greeting__section-title {
-min-height: 264px;
-font-size: 70px;
-letter-spacing: 0.1em;
-line-height: 123%;
+  min-height: 264px;
+  font-size: 70px;
+  letter-spacing: 0.1em;
+  line-height: 123%;
 }
-.section__title-modified{
-    font-size: 75px;
+.section__title-modified {
+  font-size: 75px;
 }
 .section-title-bold {
-    font-size: 80px;
-    font-weight: 700;
-    letter-spacing: 0.12em;
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
 }
 .section__social-list-title {
-    font-size: 15px;
-    margin: 90px 23px 10px;
-    }
+  font-size: 15px;
+  margin: 90px 23px 10px;
+}
 .section__social-list {
-    display: flex;
-    gap:17px;
-    margin: 10px 23px;
-    flex-grow: 0;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 17px;
+  margin: 10px 23px;
+  flex-grow: 0;
+  flex-wrap: wrap;
 }
 
 /* Content section */
 .content-section {
 }
-.content-section__subtitle-wrapper{
-    display: flex;
-    justify-content: space-between;
-    margin: 105px 70px;
+.content-section__subtitle-wrapper {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 105px 0px -25px;
 }
 .content-section__subtitle {
-    font-size: 64px ;
-    letter-spacing: 0.1em;
+  font-size: 64px;
+  letter-spacing: 0.1em;
 }
 .button {
-    font-size: 18px ;
-    color: #ffffff;
-    background-color: #118da8;
-    border-radius: 5%;
-    min-height: 51px;
-    padding: 20px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #118da8;
+  border-radius: 5px;
+  padding: 13px 19px;
 }
 .small-button {
+  font-size: 17px;
+  padding: 12px 18px;
+  align-self: center;
 }
 .cards-list {
 }
 .card {
+  width: 1300px;
+  background-color: #000000;
+  border-radius: 30px;
+  padding: 40px;
+  margin: 60px 0px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 .card__image {
+  grid-area: 1/1;
+  border-radius: 5px;
 }
 .card__content {
+  grid-area: 1/4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0px 0px 52px;
+}
+.card__content .button {
+  align-self: flex-start;
+  align-items: flex-end;
 }
 .card__tag {
+  font-size: 18px;
+  background-color: #191919;
+  border-radius: 5px;
+  padding: 2px 16px;
 }
 .card__episode {
+  font-size: 17px;
+  color: #118da8;
+  letter-spacing: 0.03em;
+  margin-top: 34px;
 }
 .card__title {
+  font-size: 65px;
+  letter-spacing: 0.1em;
+  line-height: 110%;
+  margin-bottom: -20px;
+  align-self: flex-start;
 }
 .card_text {
+  font-size: 22px;
+  letter-spacing: 0.09;
+  line-height: 150%;
+  padding-top: 20px;
+  color: #b4b4b4;
+}
+
+/* Offer section  */
+
+.section__offer {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 260px 0 200px;
+}
+.author_section {
+  display: flex;
+  flex-direction: column;
+}
+.offer__image {
+}
+.offer__link {
+  margin: 150px 0 25px 0;
+  align-self: start;
+  width: 112px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #118da8;
+  border-radius: 50%;
+}
+.offer__link-title {
+  color: #118da8;
+  font-size: 18px;
+}
+.offer__title {
+  font-size: 65px;
+  letter-spacing: 0.1em;
+  padding: 10px 0 0;
+}
+
+.offer__text {
+  padding: 35px 95px 0 0;
+  font-size: 22px;
+  letter-spacing: 0.09;
+  line-height: 150%;
+  color: #b4b4b4;
+}
+
+/* subscribe section */
+.subscribe__section{
+    background-color: #000000;
+    border-radius: 30px;
+    min-height: 387px;
+    padding: 60px;
+    display:  grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.subscribe__section-subtitle {
+    grid-area: 1/1;
+}
+
+.subscribe__section-title {
+    grid-area: 1/1;
+}
+
+.subscribe__section-form {
+
+}
+
+.button {
+
 }
