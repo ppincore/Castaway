@@ -212,6 +212,7 @@ body {
     display:  grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 130px;
+    margin-bottom: 200px;
 }
 
 .subscribe__section-subtitle {
@@ -244,4 +245,37 @@ border-radius: 5px;
 .subscribe__section-form .button {
     padding: 13px 15px;
 align-self: flex-start;
+}
+
+/* feedback section */
+.section__feedback {
+    min-height: 700px;
+}
+.section__feedback-list {
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns:repeat(3,1fr) ;
+    gap: 16px ;
+}
+.feedback__rating
+{
+    width: 110px;
+}
+.section__feedback-list-item {
+
+    background-color: #000000;
+    border-radius: 30px;
+    padding: 54px 50px 0;
+}
+.feedback__comment {
+    
+    font-size: 36px;
+    letter-spacing: 0.04em;
+    line-height: 130%;
+    margin: 15px 0 19px 0;
+}
+.author__comment {
+    font-size: 24px ;
+    color:#b4b4b4 ;
+    margin-bottom: 50px;
 }
