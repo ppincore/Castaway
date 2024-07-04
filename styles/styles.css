@@ -211,20 +211,37 @@ body {
     padding: 60px;
     display:  grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 130px;
 }
 
 .subscribe__section-subtitle {
     grid-area: 1/1;
+    color: #118da8;
+    font-size: 18px;
+   
 }
 
 .subscribe__section-title {
     grid-area: 1/1;
+    font-size:  72px ;
+    width: 430px;
+    letter-spacing: 0.09em;
+    padding: 10px 0;
+    line-height: 110%;
 }
 
 .subscribe__section-form {
-
+display: flex;
+flex-direction: column;
+gap: 20px;
 }
-
-.button {
-
+.subscribe__section-form-input{
+font-size: 24px;
+background-color: #191919;
+padding: 26px 20px;
+border-radius: 5px;
+}
+.subscribe__section-form .button {
+    padding: 13px 15px;
+align-self: flex-start;
 }
